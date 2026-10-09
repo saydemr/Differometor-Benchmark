@@ -33,7 +33,7 @@ classifiers = [
 ]
 dependencies = [
     "differometor==0.0.5",
-    "jax==0.10.0",
+    "jax==0.9.1",
     "jaxlib>=0.5.0",
     "jaxtyping>=0.3.3",
     "matplotlib>=3.8",
@@ -57,13 +57,13 @@ analysis = [
     "tueplots>=0.2.1",
 ]
 cuda12 = [
-    "jax[cuda12]==0.10.0",
+    "jax[cuda12]==0.9.1",
 ]
 cuda13 = [
-    "jax[cuda13]==0.10.0",
+    "jax[cuda13]==0.9.1",
 ]
 rocm7 = [
-    "jax[rocm7-local]==0.10.0",
+    "jax[rocm7-local]==0.9.1",
 ]
 dfo = [
     "OMADS>=2408.0",
